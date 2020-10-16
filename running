@@ -1,0 +1,16 @@
+cd ~/ros/tebplanner/src/dynamic_obstacles_in_gazebo/boxes/build
+
+export GAZEBO_PLUGIN_PATH=$(pwd)
+
+world:
+cd ~/ros/tebplanner/src/dynamic_obstacles_in_gazebo/boxes
+roslaunch turtlebot3_cafe.launch
+
+map and nav: 
+cd ~/ros/maps_turtle_bot
+roslaunch /home/josyula/ros/tebplanner/src/teb_local_planner_tutorials/launch/turtlebot3_navigation_teb.launch map_file:=$(pwd)/stage1.yaml
+
+
+dynamic obstacles:
+rosrun rqt_reconfigure rqt_reconfigure
+

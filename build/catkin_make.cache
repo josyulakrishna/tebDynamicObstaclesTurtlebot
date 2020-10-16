@@ -1,0 +1,2 @@
+multirobot/multirobot:teb_local_planner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/josyula/ros/tebplanner/devel -DCMAKE_INSTALL_PREFIX=/home/josyula/ros/tebplanner/install -G Unix Makefiles

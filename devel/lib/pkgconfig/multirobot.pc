@@ -1,0 +1,8 @@
+prefix=/home/josyula/ros/tebplanner/devel
+
+Name: multirobot
+Description: Description of multirobot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

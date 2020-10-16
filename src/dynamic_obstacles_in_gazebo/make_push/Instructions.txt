@@ -1,0 +1,6 @@
+export GAZEBO_PLUGIN_PATH="/home/josyula/ros/tebplanner/src/dynamic_obstacles_in_gazebo/make_push/build":$GAZEBO_PLUGIN_PATH
+
+u starts the world in pause
+
+gzserver -u model_push.world
+gzclient
